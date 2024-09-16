@@ -51,49 +51,46 @@ div .chi{
     }
 }
 
-.con{
+button{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     z-index: 1;
-}
-.con button{
     background-color: transparent;
     padding: 10px;
 }
-.con button a{
-    font-size: 1.5rem;
-    font-weight: bold;
+button a{
+    font-size: 1rem;
     color: white;
     text-decoration: none;
 }
 @media screen and (max-width:430px) {
     .par{
-        height: 80px;
-        width: 50px;
+        height: 100px;
+        width: 70px;
     }    
-    .con button a{
-        font-size: 0.8rem;
+     button a{
+        font-size: 0.5rem;
     }    
 }
 
 @media screen and (max-width:860px) {
     .par{
-        height: 90px;
-        width: 70px;
+        height: 110px;
+        width: 80px;
     }
-    .con button a{
-        font-size: 1rem;
+    button a{
+        font-size: 0.8rem;
     }    
 }
 
 @media screen and (max-width:1200px) {
     .par{
-        height: 100px;
-        width: 80px;
+        height: 120px;
+        width: 90px;
     }    
-    .con button a{
-        font-size: 1.2rem;
+    button a{
+        font-size: 1rem;
     }    
 }
